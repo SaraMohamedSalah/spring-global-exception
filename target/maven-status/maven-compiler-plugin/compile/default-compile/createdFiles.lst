@@ -5,13 +5,16 @@ com/demo/HandlingException/config/JwtTokenFilter.class
 com/demo/HandlingException/repository/TokenRepository.class
 com/demo/HandlingException/service/AuthenticationService.class
 com/demo/HandlingException/models/RegisterRequest.class
+com/demo/HandlingException/exceptionhandler/UserExceptionHandler.class
 com/demo/HandlingException/models/AuthenticationResponse.class
 com/demo/HandlingException/HandlingExceptionApplication.class
 com/demo/HandlingException/enums/ERole.class
+com/demo/HandlingException/exceptionhandler/exception/UserException.class
 com/demo/HandlingException/repository/User.class
 com/demo/HandlingException/service/LogoutService.class
 com/demo/HandlingException/config/PlainTextPasswordEncoder.class
 com/demo/HandlingException/repository/Token$TokenBuilder.class
+com/demo/HandlingException/models/UserErrorResponse$UserErrorResponseBuilder.class
 com/demo/HandlingException/config/CustomUserDetailsService.class
 com/demo/HandlingException/models/RegisterRequest$RegisterRequestBuilder.class
 com/demo/HandlingException/repository/Token.class
@@ -23,3 +26,5 @@ com/demo/HandlingException/models/AuthenticationRequest$AuthenticationRequestBui
 com/demo/HandlingException/repository/UserRepository.class
 com/demo/HandlingException/config/JwtUtils.class
 com/demo/HandlingException/Controller/AdminRestController.class
+com/demo/HandlingException/models/UserErrorResponse.class
+com/demo/HandlingException/exceptionhandler/exception/UserNonAuthorizedException.class

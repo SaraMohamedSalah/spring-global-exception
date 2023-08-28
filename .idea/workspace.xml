@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="82cb1653-0354-47d2-ade7-f95b4f82056b" name="Changes" comment="handling global exception">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Spring-Handling-Exception-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Spring-Handling-Exception-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/HandlingException/models/UserErrorResponse$UserErrorResponseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HandlingException-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HandlingException-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/HandlingException/Controller/AdminRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/HandlingException/Controller/AdminRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/HandlingException/Controller/AuthenticateResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/HandlingException/Controller/AuthenticateResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/HandlingException/Controller/HelloRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/HandlingException/Controller/HelloRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/HandlingException/HandlingExceptionApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/HandlingException/HandlingExceptionApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/HandlingException/config/JwtTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/HandlingException/config/JwtTokenFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/HandlingException/exceptionhandler/UserExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/HandlingException/exceptionhandler/UserExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/HandlingException/exceptionhandler/exception/UserException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/HandlingException/exceptionhandler/exception/UserException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/HandlingException/exceptionhandler/exception/UserNonAuthorizedException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/HandlingException/exceptionhandler/exception/UserNonAuthorizedException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/HandlingException/models/RegisterRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/HandlingException/models/RegisterRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/HandlingException/models/UserErrorResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/HandlingException/models/UserErrorResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/HandlingException/repository/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/HandlingException/repository/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/HandlingException/repository/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/HandlingException/repository/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/HandlingException/service/AuthenticationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/HandlingException/service/AuthenticationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/HandlingException/service/LogoutService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/HandlingException/service/LogoutService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/demo/HandlingException/HandlingExceptionApplicationTests.class" beforeDir="false" />
+    </list>
+    <list id="bd517aeb-3702-48b0-a886-fa65f0d9e026" name="2" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/HandlingException/Controller/AdminRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/HandlingException/Controller/AuthenticateResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/HandlingException/Controller/HelloRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/HandlingException/Controller/UserRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/HandlingException/HandlingExceptionApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/HandlingException/config/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/HandlingException/config/JwtTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/HandlingException/config/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/HandlingException/config/PlainTextPasswordEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/HandlingException/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/HandlingException/enums/ERole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/HandlingException/exceptionhandler/UserExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/HandlingException/exceptionhandler/exception/UserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/HandlingException/exceptionhandler/exception/UserNonAuthorizedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/HandlingException/models/AuthenticationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/HandlingException/models/AuthenticationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/HandlingException/models/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/HandlingException/models/UserErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/HandlingException/repository/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/HandlingException/repository/TokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/HandlingException/repository/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/HandlingException/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/HandlingException/service/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/HandlingException/service/LogoutService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdb.mv.db" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2UQm1mqLpxKaNam0SzR4qO60sjH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_opened_file_path": "/Users/saramohamed/Desktop/TestProjects/HandlingException/HandlingException",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "18a6e97ac30ed93193e107e0e1d8ffad"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/demo/security" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/demo/HandlingException" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.demo.HandlingException.enums" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HandlingExceptionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="HandlingException" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.HandlingException.HandlingExceptionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82cb1653-0354-47d2-ade7-f95b4f82056b" name="Changes" comment="" />
+      <changelist id="bd517aeb-3702-48b0-a886-fa65f0d9e026" name="2" comment="" />
+      <created>1692879966591</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692879966591</updated>
+      <workItem from="1692879968264" duration="4797000" />
+      <workItem from="1693121557478" duration="4985000" />
+      <workItem from="1693140852075" duration="7195000" />
+      <workItem from="1693209056129" duration="6540000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="handling global exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="handling global exception" />
+  </component>
+</project>
