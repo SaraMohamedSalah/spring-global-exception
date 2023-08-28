@@ -81,7 +81,7 @@ public class AuthenticationService {
 
     public AuthenticationResponse getAuthorizedUser(AuthenticationRequest request) {
         User user = (User)this.userRepository.findByEmailAndRole(request.getEmail(), ERole.valueOf(request.getRole())).orElseThrow(() -> {
-            return new UserNonAuthorizedException("user email not found - " + request.getEmail());
+            return new UserNonAuthorizedException("user email not authorized - " + request.getEmail());
         });
         String jwtToken = this.jwtUtils.generateTokenFromUsername(request.getEmail());
         return AuthenticationResponse.builder().accessToken(jwtToken).email(user.getEmail()).build();
